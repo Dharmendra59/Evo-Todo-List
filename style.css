@@ -273,3 +273,30 @@ body{
     color: red;
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.add-task-btn{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #f9ea85;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+.add-task-btn:hover{
+    transform: scale(1.1);
+}
+.add-task-btn svg{
+    width: 2rem;
+    color: #2e2e2e;
+    transition: all 0.3;
+    
+}
+.add-task-btn svg:hover{
+    transform: rotate(30deg);
+}
