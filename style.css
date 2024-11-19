@@ -253,3 +253,23 @@ body{
     opacity: 1;
     color: #fff;
 }
+.task-wrapper .delete{
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: #2e2e2e;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.031);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.task-wrapper:hover .delete{
+    visibility: visible;
+    opacity: 1;
+}
+.task-wrapper .delete:hover{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.1);
+}
